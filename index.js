@@ -17,7 +17,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What is your projects name',
+        message: 'What is your projects name?',
         name: 'project'
     },
     {
@@ -30,7 +30,21 @@ const questions = [
         message: 'What kind of license should your project have?',
         name: 'license',
         choices: ['MIT', 'BSD_3', 'GPL_3.0', 'None']
+    },
+    {
+        type: 'input',
+        message: 'What languages does the user need to know about before using the repo?',
+        name: 'knowledge',
+    },
+    {
+        type: 'input',
+        message: 'What does the user need to know about contributing to the repo?',
+        name: 'contribution',
+    },
+    {
+        
     }
+
 ];
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
