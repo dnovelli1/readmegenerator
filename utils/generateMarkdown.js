@@ -5,8 +5,10 @@ function renderLicenseBadge(license) {
     return '';
   } else {
     var newLicense = license.split(' ').join('_');
-    return `![Badge](https://img.shields.io/badge/license-${newLicense}-blue)`;
-  } 
+    return `
+![Badge](https://img.shields.io/badge/license-${newLicense}-blue)
+  `;
+  }
 }
 
 // TODO: Create a function that returns the license link
@@ -30,7 +32,7 @@ function renderLicenseSection(license) {
     return `
 ## License
 
-This project is currently licensed under the ${license} [License-Link](${renderLicenseLink(license).toLowerCase()})
+This project is currently licensed under the ${license} [License](${renderLicenseLink(license).toLowerCase()})
   `;
   }
 }
@@ -42,27 +44,61 @@ function generateMarkdown(data) {
 
 ${renderLicenseBadge(data.license)}
 
-## Table of Contents
-
-*[Description](#Description)
-
-*[Installation](#Installation)
-
-*[Personal-Links](#Personal)
-
-
-
 ## Description
 
-  ${data.description}
+${data.description}
 
 
+## Table of Contents
 
-## Personal Links for Business Inquiries
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Making](#making)
+
+* [Contact](#contact)
+
+
+## Installation
+
+In order to run this application, you will need to install the following:
+
+  - ${data.install}
+
+## Usage
+
+In order to use this app, you will need to understand the following langauges:
+
+  - ${data.usage}
+
+## Contribute 
+    
+In order to contribute, you will need to know the following languges:
+    
+  - ${data.contribution}
+
+## Tests
+
+To run tests, please use the following command:
+
+  - ${data.test}
+
+
+## Making
+
+Post all of your code snippets here:
+
+
+## Contact
 
 [GitHub](https://github.com/${data.github})
 
-[Email-Me](${data.email})
+[Email Me](${data.email})
 
 
 
