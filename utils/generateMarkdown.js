@@ -91,14 +91,16 @@ To run tests, please use the following command:
 
 ## Making
 
-Post all of your code snippets here:
+How was it made? Take a look here!
 
 
 ## Questions
 
-If you have any questions, please see the following links to best get in contact with me:
+Please click the link to see my Full GitHub profile:
 
 [GitHub](https://github.com/${data.github})
+
+If you have any questions, please see the following links to best get in contact with me:
 
 [Email Me](${data.email})
 
