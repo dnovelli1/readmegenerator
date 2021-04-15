@@ -61,7 +61,7 @@ ${data.description}
 
 * [Making](#making)
 
-* [Contact](#contact)
+* [Questions](#questions)
 
 
 ## Installation
@@ -94,12 +94,13 @@ To run tests, please use the following command:
 Post all of your code snippets here:
 
 
-## Contact
+## Questions
+
+If you have any questions, please see the following links to best get in contact with me:
 
 [GitHub](https://github.com/${data.github})
 
 [Email Me](${data.email})
-
 
 
 ${renderLicenseSection(data.license)}
