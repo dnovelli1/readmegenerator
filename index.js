@@ -29,22 +29,28 @@ const questions = [
         type: 'list',
         message: 'What kind of license should your project have?',
         name: 'license',
-        choices: ['MIT', 'BSD_3', 'GPL_3.0', 'None']
+        choices: ['MIT', 'APACHE 2.0', 'BSD 3', 'GPL 3.0', 'None']
     },
     {
         type: 'input',
-        message: 'What languages does the user need to know about before using the repo?',
-        name: 'knowledge',
+        message: 'What command should be run to install dependencies?',
+        name: 'install'
+    },
+    {
+        type: 'input',
+        message: 'What command should be run to run tests?',
+        name: 'test'
+    },
+    {
+        type: 'input',
+        message: 'What does the user need to know about using the repo?',
+        name: 'usage'
     },
     {
         type: 'input',
         message: 'What does the user need to know about contributing to the repo?',
-        name: 'contribution',
+        name: 'contribution'
     },
-    {
-        
-    }
-
 ];
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
