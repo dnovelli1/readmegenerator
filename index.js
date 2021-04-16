@@ -1,9 +1,11 @@
 // TODO: Include packages needed for this application
+// All required files.
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
+// All questions, types, and keys for template literals
 const questions = [
     {
         type: 'input',
@@ -53,6 +55,7 @@ const questions = [
     },
 ];
 // TODO: Create a function to write README file
+// Writes file and throws error in a case where there is one.
 function writeToFile(fileName, data) {
     fs.writeFile(path.join(__dirname, fileName), data, function(err){
         if(err)throw err
@@ -61,6 +64,7 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
+// Initial trigger. Prompts questions then uses callback functions to write full MD file.
 function init() {
     inquirer.prompt(questions).then(answers => {
         console.log(answers);

@@ -7,7 +7,7 @@
 
 ## Description
 
-In this project I was prompted with the ask of creating a 'README.md' generator using Node.js. I was given starter code indicating which functions were to be used, and all of the files required. This process was relatively simple. Write the prompted questions, run them initally, take the answers and write the 'README.md' file using template literals. I was able to provide the user (myself) with a generator for a professional README.md file for all projects to come.
+I love code.
 
 
 ## Table of Contents
@@ -54,14 +54,7 @@ To run tests, please use the following command:
 
 How was it made? Take a look here!
 
-Init Function
-![Code-Snippet](images/initsnippet.PNG)
 
-Generate Function
-![Code-Snippet](images/generatesnippet.PNG)
-
-Generate License Function
-![Code-Snippet](images/licensesnippet.PNG)
 
 ## Questions
 
