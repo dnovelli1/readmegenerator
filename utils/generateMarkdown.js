@@ -1,9 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  // Returns an empty string if none selected by user
   if (license == 'None') {
     return '';
   } else {
+    // creates new license in order to make link function correctly, plugs in template literal
     var newLicense = license.split(' ').join('_');
     return `
 ![Badge](https://img.shields.io/badge/license-${newLicense}-blue)
@@ -14,11 +16,12 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  // Returns an empty string if none selected by user
   if(license == 'None'){
     return '';
   } else {
+    // creates new license in order to make link function correctly, plugs in template literal
     var newLicense = license.split(' ').join('-');
-    // license.toLowerCase();
     return `https://choosealicense.com/licenses/${newLicense}/`;
   }
 }
@@ -29,6 +32,7 @@ function renderLicenseSection(license) {
   if(license == 'None'){
     return '';
   }else{
+    // Returns string with name of the license and link to more information on the license.
     return `
 ## License
 
@@ -38,6 +42,7 @@ This project is currently licensed under the ${license} [License](${renderLicens
 }
 
 // TODO: Create a function to generate markdown for README
+// Creates the template for the MD file. Inserting template literals where the user input should be.
 function generateMarkdown(data) {
   return `
 # ${data.project}
