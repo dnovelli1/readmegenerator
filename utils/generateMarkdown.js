@@ -55,7 +55,7 @@ ${data.description}
 
 * [Usage](#usage)
 
-* [Contributing](#contributing)
+* [Contribute](#contribute)
 
 * [Tests](#tests)
 
