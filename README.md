@@ -9,6 +9,10 @@
 
 In this project I was prompted with the ask of creating a 'README.md' generator using Node.js. I was given starter code indicating which functions were to be used, and all of the files required. This process was relatively simple. Write the prompted questions, run them initally, take the answers and write the 'README.md' file using template literals. I was able to provide the user (myself) with a generator for a professional README.md file for all projects to come.
 
+Find out how to use this application here!
+
+[Video](https://drive.google.com/file/d/1fFX5c90p4qJ5CrLfSL3UV66y-rVLkReK/view?usp=sharing)
+
 
 ## Table of Contents
 
@@ -75,8 +79,6 @@ Please click the link to see my Full GitHub profile:
 If you have any questions, please see the following links to best get in contact with me:
 
 [Email Me](jakenovelli11@gmail.com)
-
-
 
 ## License
 
