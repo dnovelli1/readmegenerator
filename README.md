@@ -55,12 +55,15 @@ To run tests, please use the following command:
 How was it made? Take a look here!
 
 Init Function
+
 ![Code-Snippet](images/initsnippet.PNG)
 
 Generate Function
+
 ![Code-Snippet](images/generatesnippet.PNG)
 
 Generate License Function
+
 ![Code-Snippet](images/licensesnippet.PNG)
 
 ## Questions
